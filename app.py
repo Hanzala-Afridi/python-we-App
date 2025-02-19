@@ -102,6 +102,3 @@ if uploaded_files:
             )
             st.success("File processed successfully!")
 
-!npm install localtunnel
-!streamlit run /content/your_app.py &>/content/logs.txt &
-!npx localtunnel --port 8501
